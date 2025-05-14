@@ -1,46 +1,49 @@
 #####################################################################
 #                                                                   #
-# Script:  .gitignore                                               #
+# Script:  .npmignore                                               #
 #                                                                   #
-# Purpose: A list of files and dirs to be ignored by git.           #
+# Purpose: A list of files and dirs to be ignored by NPM.           #
 #                                                                   #
-# Date:    14th May 2025                                            #
+# Date:    11th May 2025                                            #
 #                                                                   #
 # Author:  datr.tech admin <admin@datr.tech>                        #
 #                                                                   #
 #####################################################################
 
 #
-# Dirs to be ignored
+# Hidden files to be ignored
 #
-coverage
-node_modules/
+.editorconfig
+.gitignore
+.mailmap
+.npmignore
+.prettierignore
+.prettierrc.json
+.shellcheckrc
+.sql-lint.json
 
 #
-# File extensions to be ignored
+# Standard files to be ignored
 #
-*.bak
-*.DS_Store
-*.err
-*.gz
-*.log
-*.pid
-*.out
-*.rds
-*.swp
-
-#
-# Files to be ignored
-#
-sql/exim_db.sql
+CHANGELOG.md
+commitlint.config.js
+cspell.json
+LICENSE.txt
 
 #
 # Hidden dirs to be ignored
 #
-.idea/
+.git
+.github
+.husky
 
 #
-# Hidden files to be ignored
+# Standard dirs to be ignored
 #
-.env
+node_modules/
 
+#
+# SQL files to be ignored
+#
+sql/exim_db.sql
+sql/exim_db.sql.b64

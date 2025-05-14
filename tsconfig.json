@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es5",
+    "paths": {
+      "@app-dtwa/*": ["./src/*"],
+      "@test-dtwa/*": ["./test/*"]
+    }
+  },
+  "exclude": [".git", ".github", ".jest", "coverage", "node_modules", "dist"],
+  "files": ["src/index.ts"],
+  "include": ["./src/**/*.ts"]
+}

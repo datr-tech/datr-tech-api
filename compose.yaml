@@ -1,0 +1,19 @@
+services:
+  datr-tech-web-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ${API_CONTAINER_NAME}
+    ports:
+      - "${API_PORT}:${API_PORT}"
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:${API_PORT}/healthcheck" ]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    networks:
+      - ${API_NETWORK}
+networks:
+  net-datr-tech-web:
+    driver: bridge

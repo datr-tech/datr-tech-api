@@ -1,0 +1,3 @@
+import emailValidationSchemaCreateEmailJson from './emailValidationSchemaCreateEmail.json';
+
+export const emailValidationSchemaCreateEmail = emailValidationSchemaCreateEmailJson;
