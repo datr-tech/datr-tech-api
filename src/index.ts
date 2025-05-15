@@ -1,6 +1,7 @@
-import { app } from '@app-dtwa/api';
-import { apiName, apiPort } from '@app-dtwa/config';
+import { app } from '@app-dta/api';
+import { apiName, apiPort } from '@app-dta/config';
 import { logger } from '@datr.tech/leith-common-logger';
+
 import 'dotenv/config';
 
 app.listen(apiPort, () => {

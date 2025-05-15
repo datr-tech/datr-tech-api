@@ -1,5 +1,5 @@
-# datr-tech-web-api
+# datr-tech-api
 
-> API for datr-tech-web
+> Public datr.tech API
 
 UNDER CONSTRUCTION

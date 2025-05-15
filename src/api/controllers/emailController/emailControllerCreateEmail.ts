@@ -1,9 +1,9 @@
-import { baseStat } from '@app-dtwa/api/util/baseStat';
+import { baseStat } from '@app-dta/api/util/baseStat';
 import {
   IEmailControllerCreateEmail,
   IEmailControllerCreateEmailOutputError,
   IEmailControllerCreateEmailOutputSuccess,
-} from '@app-dtwa/interfaces/api/controllers';
+} from '@app-dta/interfaces/api/controllers';
 import { logger } from '@datr.tech/leith-common-logger';
 import nodemailer from 'nodemailer';
 

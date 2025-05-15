@@ -13,7 +13,7 @@
     "sourceMap": true,
     "target": "es5",
     "paths": {
-      "@app-dtwa/*": ["./src/*"],
+      "@app-dta/*": ["./src/*"],
       "@test-dtwa/*": ["./test/*"]
     }
   },

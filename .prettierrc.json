@@ -1,6 +1,17 @@
 {
   "arrowParens": "always",
   "bracketSpacing": true,
+  "importOrder": [
+    "<BUILTIN_MODULES>",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/(.*)$",
+    "",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": ["typescript"],
+  "importOrderTypeScriptVersion": "5.2.2",
   "insertPragma": false,
   "overrides": [
     {
@@ -17,7 +28,7 @@
     }
   ],
   "plugins": [
-    "prettier-plugin-organize-imports",
+    "@ianvs/prettier-plugin-sort-imports",
     "prettier-plugin-sh",
     "prettier-plugin-sort-json"
   ],

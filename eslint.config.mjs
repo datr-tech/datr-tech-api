@@ -1,10 +1,11 @@
+import path from 'node:path';
+
 import { includeIgnoreFile } from '@eslint/compat';
 import { FlatCompat } from '@eslint/eslintrc';
 import js from '@eslint/js';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import tsParser from '@typescript-eslint/parser';
 import prettier from 'eslint-plugin-prettier';
-import path from 'node:path';
 
 const gitignorePath = path.resolve('./.gitignore');
 const compat = new FlatCompat({

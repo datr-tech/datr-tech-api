@@ -1,5 +1,5 @@
-import { apiRouter } from '@app-dtwa/api/routers';
-import { apiName } from '@app-dtwa/config';
+import { apiRouter } from '@app-dta/api/routers';
+import { apiName } from '@app-dta/config';
 import express from 'express';
 import expressHealthcheck from 'express-healthcheck';
 

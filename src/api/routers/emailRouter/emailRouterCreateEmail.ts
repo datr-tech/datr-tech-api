@@ -1,9 +1,9 @@
-import { emailController } from '@app-dtwa/api/controllers/emailController';
-import { emailValidationSchemaCreateEmail } from '@app-dtwa/api/routerValidationSchemas';
+import { emailController } from '@app-dta/api/controllers/emailController';
+import { emailValidationSchemaCreateEmail } from '@app-dta/api/routerValidationSchemas';
 import {
   IEmailControllerCreateEmailOutputError as IControllerError,
   IEmailControllerCreateEmailOutputSuccess as IControllerSuccess,
-} from '@app-dtwa/interfaces/api/controllers';
+} from '@app-dta/interfaces/api/controllers';
 import { options } from '@datr.tech/leith-config-api-router-options';
 import { Request, Response, Router } from 'express';
 import {

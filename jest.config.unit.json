@@ -10,7 +10,7 @@
     }
   },
   "moduleNameMapper": {
-    "@app-dtwa/(.*)": "<rootDir>/src/$1",
+    "@app-dta/(.*)": "<rootDir>/src/$1",
     "@test-dtwa/(.*)": "<rootDir>/test/$1"
   },
   "preset": "ts-jest",
